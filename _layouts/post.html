@@ -40,7 +40,7 @@ layout: default
   </header>
 
   <article class="post-content">
-    {{ content }}
+    {{ content | toc}}
   </article>
 
   {%- if site.disqus_shortname and page.comments -%}

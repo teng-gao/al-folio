@@ -1,25 +1,18 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://dbmi.hms.harvard.edu/'>Department of Biomedical Informatics</a>, Harvard Medical School
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Hello! I am a PhD student in the [Bioinformatics & Integrative Genomics](https://bigphd.hms.harvard.edu/) program at Harvard Medical School, co-advised by [Peter Kharchenko](https://altoslabs.com/team/principal-investigators-san-diego/peter-kharchenko/) and [Peter Park](https://compbio.hms.harvard.edu/people/peter-j-park). Before starting graduate school, I was a computational biologist at [Memorial Sloan Kettering Cancer Center](https://componcmsk.org/) in New York City. Before that, I studied computer science and biology at Washington University.
+<br><br>
+My current research interest lies in the intersection of aging and cancer biology, leveraging the most recent genomics technologies. Some of my prior works in this area include detecting age-related acquisition of DNA mutations in the blood of 32,000 individuals ([Gao et al 2021, Nature Communications](https://www.nature.com/articles/s41467-020-20565-7)) and single-cell analysis of genomic and transcriptional aberrations in cancer ([Gao et al 2022, Nature Biotechnology](https://www.nature.com/articles/s41587-022-01468-y)). My ultimate goal as a scientist is to prevent cancer and other age-associated diseases.
