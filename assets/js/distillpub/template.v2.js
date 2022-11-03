@@ -3482,6 +3482,27 @@ d-citation-list .references .title {
 
   })();
   });
+  
+  Prism.languages.r = {
+    'comment': /#.*$/gm,    
+    // if you want to have a partial workaround for the comments-within-strings bug, use the below instead of the above.
+    // However a comment with an odd number of " in it will not highlight.
+    //'comment': /#(?=(?:[^"\\\r\n]*(\\.|"(?:[^"\\\r\n]*\\.)*[^"\\\r\n]*"))*[^"\r\n]*$).*$/gm,
+      'string': /("|')(?:\\.|(?!\\|\1)[\s\S])*\1/g,
+      'keyword': /\b(?:if|else|repeat|while|function|for|in|next|break)\b/g,
+      // NULL etc are not really booleans but I just group them tohere to be marked up
+      'boolean': /\b(?:TRUE|FALSE|T|F|NA(?:_(?:integer|real|complex|character)_)?|NULL)\b/g,
+      'function': /(?:(?:[a-zA-Z]|\.(?![0-9]))[.\w]*|`[^`\s]*`)[ \t]*(?=\()/g,
+      'number': /\b[-+]?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee]-?\d+)?i?|Inf|NaN)\b/g,
+      'operator': /(?:<|&lt;)-|[-+\/!\^]|={1,2}|(?:&[lg]t;|[><])=?|(&amp;|&){1,2}|\|\|?|\*\*?|\%(\/|in)?\%/g,
+      'property': {
+          pattern: /([$@])[\w._]+/g,
+          lookbehind: true
+      },
+    'namespace': /[\w._]+(?=::)/g,
+      'punctuation': /[@?${}[\];(),.:]/g, // Prism.Languages.clike.punctuation
+      'variable': /(?:(?:[a-zA-Z]|\.(?![0-9]))[.\w]*|`[^`\s]*`)/g
+  };
 
   Prism.languages.python = {
   	'comment': {
