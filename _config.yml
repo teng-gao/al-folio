@@ -123,9 +123,6 @@ disqus_shortname:
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-# external_sources:
-  # - name: hackmd.io
-    # rss_url: https://hackmd.io/@hzTC6g-5Ram0rY46Kz-Zmw
 
 # -----------------------------------------------------------------------------
 # Collections
