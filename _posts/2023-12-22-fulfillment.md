@@ -8,11 +8,11 @@ toc:
   beginning: true
 ---
 
-<!-- <meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@tGaoTeng" />
 <meta name="twitter:title" content="What makes doing science fulfilling?" />
 <meta name="twitter:description" content="Some reflections on why I do science" />
-<meta name="twitter:image" content="https://teng-gao.github.io/assets/img/wheel.jpg" /> -->
+<!-- <meta name="twitter:image" content="https://teng-gao.github.io/assets/img/wheel.jpg" /> -->
 
 1. **You’re working on high impact problems in an area that you deeply care about.** Academia is competitive, and it’s often easy to choose a project or a lab thinking “if I do this, then I’ll be successful”. Personally, I find that over time this way of thinking really eats at my passion, makes science less enjoyable, and detracts me from my real purpose. For what is a successful career if doesn't change the world in ways that you want?
 2. **In the process of doing so, you’re growing as a scientist**, either by acquiring new skills or becoming the expert in a key domain that will enable you to solve even bigger problems and have broader impact in your future work. Research is risky and not every project succeeds. However, don't forget that your growth as a scientist is a project in and of itself, and it should never fail!
