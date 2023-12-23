@@ -2,7 +2,7 @@
 layout: post
 title: What makes doing science fulfilling?
 date: 2023-12-22
-description: Some reflections on the necessary conditions that makes it worthwhile to do science
+description: Some reflections on the necessary conditions that make it worthwhile to do science
 tags: reflections
 toc:
   beginning: true
@@ -11,7 +11,7 @@ toc:
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@tGaoTeng" />
 <meta name="twitter:title" content="What makes doing science fulfilling?" />
-<meta name="twitter:description" content="Some reflections on the necessary conditions that makes it worthwhile to do science" />
+<meta name="twitter:description" content="Some reflections on the necessary conditions that make it worthwhile to do science" />
 <!-- <meta name="twitter:image" content="https://teng-gao.github.io/assets/img/wheel.jpg" /> -->
 
 
